@@ -1,0 +1,57 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# dotenv environment variables file
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# eslint cache directory
+.eslintcache
+
+# macOS
+.AppleDouble
+.LSOveerride
+
+# misc
+.DS_Store
+
+# node
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# npm cache directory
+.npm
+
+# production
+/build
+/build/Release
+
+# react
+**/*.backup.*
+**/*.back.*
+
+# runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# testing
+/coverage
+
+# vscode versions used for testing VSCode extensions
+.vscode-test
